@@ -67,3 +67,13 @@
 * **git push -u origin main** - связывание веток
 
 * **git clone https://github.com/yandex-praktikum/git-clone-lesson** - клонирование репозитория
+
+#Hesh, Log и HEAD#
+
+Hesh - набор данных о коммите.
+
+git log - история (показывается: Hesh, Author, Date, Commit).
+
+git log --oneline - сокращенные записи в одну строку (Часть hesh'а и сам commit).
+
+HEAD - служебное слово, указывающее на последний commit.
