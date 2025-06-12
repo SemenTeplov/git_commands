@@ -92,3 +92,9 @@
 
 * **git commit --amend --no-edit** - добавление нового файла в старый коммит.
 * **git commit --amend -m "new commit"** - изменение коммита.
+
+# Восстановление
+
+* **git restore --staged example.txt** - возвращает файл staged в статус untracked.
+* **git reset --hard b576d89** - сбрасывает все коммиты до указанного, делая его последним коммитом.
+* **git restore example.txt** - возвращает файл без статусов в предыдущий вид.
