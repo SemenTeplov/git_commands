@@ -98,3 +98,8 @@
 * **git restore --staged example.txt** - возвращает файл staged в статус untracked.
 * **git reset --hard b576d89** - сбрасывает все коммиты до указанного, делая его последним коммитом.
 * **git restore example.txt** - возвращает файл без статусов в предыдущий вид.
+
+# Сопоставление коммитов
+
+* **git diff a/example.txt b/example.txt** - сравнение коммитов.
+* **git diff --staged a/example.txt b/example.txt** - сравнение коммитов в статусе staged.
